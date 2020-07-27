@@ -113,6 +113,6 @@ h6 {
 	height: 600px;
 	left: 0px;
 	top: 80px;
-	background: rgba(47, 48, 58, 0.8);
+	background-color: rgba(47, 48, 58, 0.8);
 	background-image: url("./img/Header-img.jpg");
 }
