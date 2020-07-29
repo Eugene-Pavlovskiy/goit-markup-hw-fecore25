@@ -107,24 +107,57 @@ nav:before {
 	background-image: url("/img/Header-img.jpg");
 }
 
-/* Social Links */
-.social-links a {
-	color: rgb(0, 255, 64);
-	text-decoration: none;
+.container-osobennosti {
+	display: flex;
+	justify-content: space-around;
 }
 
-/* SFooter */
+.container-osobennosti ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-br {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-br ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-team {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-team ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-clients {
+	display: flex;
+	justify-content: space-around;
+}
+
+.container-clients ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Footer */
+.container-footer {
+	flex-direction: column;
+	justify-content: space-around;
+}
 .footer-logo {
-	position: absolute;
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 26px;
-	line-height: 31px;
-	/* identical to box height */
-
 	letter-spacing: 0.03em;
-
 	color: #2196f3;
 }
 
@@ -133,10 +166,19 @@ nav:before {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 24px;
-	/* or 171% */
-
 	letter-spacing: 0.03em;
+	color: #b91616;
+}
 
-	color: #ffffff;
+/* Social Links */
+.social-links {
+	display: flex;
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+}
+
+.social-links ul {
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+	display: flex;
 }
