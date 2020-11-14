@@ -1,2 +1,2 @@
-# web-studio
-Project#1
+# goit-markup-hw-01
+
